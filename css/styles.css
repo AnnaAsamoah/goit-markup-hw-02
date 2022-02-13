@@ -13,6 +13,9 @@
 #2F303A;
 #ECECEC; */
 
+:root {
+
+}
 body {
 font-family: "Roboto", sans-serif;
 font-size: 14px;
@@ -22,6 +25,55 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+.hero-btn {
+    color: #2196f3;
+}
+
+.hero-btn {
+ height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+
+    color: ;
+}
+
+
+.features-title {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.text {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+}
+.portfolio {
+
+}
+.team {
+
+}
+.filters {
+
+}
+.projects {
+
+}
 
 
 
