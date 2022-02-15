@@ -14,17 +14,40 @@
 #ECECEC; */
 
 :root {
+    /* Основные шрифты */
+--main-font: 'Roboto', sans-serif;   
+--secondary-font: 'Raleway', sans-serif; 
 
+    /* Светлая тема текста */
+--accent-txt-cl: #2196F3;
+--primary-light-txt: #212121;
+--secondary-light-txt: #757575;
+
+    /* Темная тема текста */    
+--primary-dark-txt: #FFFFFF; 
+--secondary-dark-txt: #2196F3; 
+
+    /* Светлая тема фона */ 
+--primary-light-bg: #E5E5E5;
+--secondary-light-bg: #F5F4FA;
+
+    /* Темная тема фона */ 
+--primary-dark-bg: #2F303A;
+--secondary-dark-bg: ;    
 }
+
 body {
 font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: #212121;
 }
 
+.header-phone:hover {
+    color: #2196f3;
+}
 .hero-btn {
     color: #2196f3;
 }
@@ -74,6 +97,30 @@ color: #757575;
 .projects {
 
 }
+ /* Header */
+.nav-link {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-light-txt)   
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196f3;
+}
+
+.filters .filters-list .filtres-btn {
+background-color: #EEEEEE;
+cursor: pointer;
+}
+
+    .filters .filters-list .filtres-btn:focus {
+    background-color: #2196F3;
+    }
+
 
 
 
