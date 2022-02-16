@@ -24,16 +24,15 @@
 --secondary-light-txt: #757575;
 
     /* Темная тема текста */    
---primary-dark-txt: #FFFFFF; 
---secondary-dark-txt: #2196F3; 
+--dark-bg-txt: #FFFFFF; 
 
     /* Светлая тема фона */ 
 --primary-light-bg: #E5E5E5;
 --secondary-light-bg: #F5F4FA;
+--accent-light-bg: #2196F3;
 
     /* Темная тема фона */ 
---primary-dark-bg: #2F303A;
---secondary-dark-bg: ;    
+--primary-dark-bg: #2F303A;    
 }
 
 body {
@@ -44,67 +43,135 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #212121;
 }
-
-.header-phone:hover {
-    color: #2196f3;
+      /*Логотипы*/
+.header-link {     
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+color: var(--accent-txt-cl);
 }
-.hero-btn {
-    color: #2196f3;
-}
-
-.hero-btn {
- height: 50px;
-width: 200px;
-left: 700px;
-top: 430px;
-border-radius: 4px;
-
-    color: ;
-}
-
-
-.features-title {
-font-family: Roboto;
-font-size: 14px;
+.footer-logo {
+font-family: Raleway;
 font-style: normal;
 font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #212121;
+font-size: 26px;
+line-height: 1.19;
+color: var(--accent-txt-cl);
 }
-
-.text {
-font-family: Roboto;
-font-size: 14px;
+      /*Контакты в хедере*/
+.header-phone, .header-mail {
+    color:var(--secondary-light-txt);
+}
+   .header-mail:hover, .header-mail:focus,
+   .header-phone:hover, .header-phone:focus {
+    color: var(--accent-txt-cl);
+}
+      /*Контакты в футере*/
+.footer-mail, .footer-phone {
 font-style: normal;
-font-weight: 400;
+font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
-}
-
+color: rgba(255, 255, 255, 0.6);
 
 }
-.portfolio {
+      /* Адрес в футере*/
+ .footer-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--dark-txt);
+ }  
+      /*Герой*/
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--dark-bg-txt);
 
 }
-.team {
-
+       
+      /*Главная кнопка*/  
+.hero-btn {
+    color: var(--dark-bg-txt);
+    background-color: var(--accent-light-bg);
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
-.filters {
-
+    
+      /*Особенности*/
+.features-title {
+font-size: 14px;
+font-weight: 700;
+line-height: 1.17;
+text-transform: uppercase;
+color: var(--primary-light-txt);
 }
-.projects {
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-light-txt);
+    }   
 
+     /*Наша команда*/
+.team-title {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--primary-light-txt);    
 }
- /* Header */
+.team-subtitle {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-light-txt)
+}
+    /* Фильтры */
+    .filters .filters-list .filtres-btn {
+        background-color: #EEEEEE;
+        color: var(--primary-light-txt);
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        
+        
+    }
+        
+            .filters .filters-list .filtres-btn:focus {
+            background-color: var(--accent-light-bg);
+            color: var(--dark-bg-txt);
+            }
+
+     /*Проекты*/
+.projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--primary-light-txt);
+   }
+.projects-subtitle {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-light-txt);
+} 
+    
+   /* Навигация в хедере*/
 .nav-link {
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--secondary-light-txt)   
+color: var(--primary-light-txt)   
 }
 
 .nav-link:hover,
@@ -112,16 +179,12 @@ color: var(--secondary-light-txt)
     color: #2196f3;
 }
 
-.filters .filters-list .filtres-btn {
-background-color: #EEEEEE;
-cursor: pointer;
+    
+        /* Тчки в списках none */
+.nav-list, .features-list, .portfolio-list, .team-list, .filters-list, .projects-list, .footer-list {
+list-style-type: none;
 }
 
-    .filters .filters-list .filtres-btn:focus {
-    background-color: #2196F3;
-    }
-
-
-
-
+ 
+ 
 
