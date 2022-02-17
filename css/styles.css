@@ -74,7 +74,7 @@ color: var(--dark-bg-txt);
     color: var(--accent-txt-cl);
 }
       /*Контакты в футере*/
-.footer-mail, .footer-phone {
+.footer-list, .footer-mail, .footer-phone {
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -144,6 +144,7 @@ color: var(--primary-light-txt);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.19;
+    font-weight: 500;
     color: var(--primary-light-txt);    
 }
 .team-subtitle {
@@ -152,7 +153,7 @@ color: var(--primary-light-txt);
     color: var(--secondary-light-txt)
 }
     /* Фильтры */
-    .filters .filters-list .filtres-btn {
+    .filtres-btn {
         background-color: #EEEEEE;
         color: var(--primary-light-txt);
         cursor: pointer;
@@ -160,11 +161,21 @@ color: var(--primary-light-txt);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
+        width: 145px;
+        top: 276px;
+       
+
+
+
+
+
+    
         
+
+}
         
-    }
-        
-            .filters .filters-list .filtres-btn:focus {
+            .filtres-btn:focus,
+            .filtres-btn:hover {
             background-color: var(--accent-light-bg);
             color: var(--dark-bg-txt);
             }
@@ -202,6 +213,10 @@ color: var(--primary-light-txt)
         /* Точки в списках none */
 .nav-list, .features-list, .portfolio-list, .team-list, .filters-list, .projects-list, .footer-list {
 list-style-type: none;
+}
+        /* Подчеркивание сссылок none */
+.link {
+    text-decoration: none;
 }
 
  
