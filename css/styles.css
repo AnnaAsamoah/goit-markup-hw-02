@@ -34,7 +34,7 @@
     /* Темная тема фона */ 
 --primary-dark-bg: #2F303A;    
 }
-
+      /* Боди */
 body {
 font-family: "Roboto", sans-serif;
 font-size: 14px;
@@ -139,7 +139,7 @@ color: var(--primary-light-txt);
     color: var(--secondary-light-txt);
     }   
 
-     /*Наша команда*/
+     /* Наша команда */
 .team-title {
     font-family: Roboto;
     font-size: 16px;
@@ -199,7 +199,7 @@ color: var(--primary-light-txt)
 }
 
     
-        /* Тщчки в списках none */
+        /* Точки в списках none */
 .nav-list, .features-list, .portfolio-list, .team-list, .filters-list, .projects-list, .footer-list {
 list-style-type: none;
 }
